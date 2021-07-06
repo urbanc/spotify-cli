@@ -2,7 +2,7 @@ name: CI - release
 on:
   push:
     tags:
-      - '*'
+      - 'v*.*.*'
 jobs:
   build:
     name: create new release
